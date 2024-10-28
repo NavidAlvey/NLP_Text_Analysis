@@ -5,7 +5,7 @@ This project analyzes word significance and word relationships in a text corpus 
 ### Data Preparation:
 - Loads the first 1000 sentences from the Brown corpus.
 - Converts each sentence into a single string for TF-IDF analysis.
-- 
+ 
 ### TF-IDF Calculation:
 - Initializes a TfidfVectorizer to compute TF-IDF scores for each word in each sentence.
 - Defines a function to retrieve the TF-IDF score of a specific word in a specified document.
